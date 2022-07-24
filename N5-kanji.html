@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Japopo app</title>
+      <meta charset="UTF-8">
+      <!--<link rel="stylesheet" href="css/style.css">-->
+  </head>
+  <body>
+
+    <div>
+      Kanji
+      <button id = "kanji" onclick=explain()> ddd </button>
+      <p id="aciertos"> Aciertos:</p>
+      <p id="fallos"> Fallos:</p>
+    </div>
+
+    
+    <div id = "choices">
+      <button onclick= check(this)>
+        {{expression}}
+      </button>
+      <button onclick= check(this)>
+        {{expression}}
+      </button>
+      <button onclick= check(this)>
+        {{expression}}
+      </button>
+      <button onclick= check(this)>
+        {{expression}}
+      </button>
+      <button onclick= check(this)>
+        {{expression}}
+      </button>
+    </div>
+    
+    <div>
+      <button onclick= show()>
+          Lets Start
+      </button>
+      イチ
+    </div>
+
+    <div class="explicaccion">
+        On:
+        <input id ="on" readonly>
+        Kun:
+        <input id="kun" readonly>
+        Traducción:
+        <input id="traduccion" readonly>
+
+
+    </div>
+    <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+    <script src="basicJs.js"></script>
+  </body>
+</html>
+  
+  
