@@ -4,6 +4,7 @@ function show(){
    window.random = parseInt(Math.random()*window.n5.length)+1
    for(var i = 0; i < choices.length; i++){
       const random = parseInt(Math.random()*window.n5.length)
+      if(random<= 0){random = 1}
       choices[i].innerText = window.n5[random][1]
    };
    window.r = parseInt(Math.random()*choices.length)
