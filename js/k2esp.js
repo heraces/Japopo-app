@@ -12,6 +12,12 @@ function show(){
    p.innerText = window.n5[window.random][0]
 }
 
+function showFirst(){
+   const face = document.getElementById("floatAboveEverything");
+   face.parentNode.removeChild(face);
+   show();
+}
+
 function explain(){
    document.getElementById("on").value = window.n5[window.random][2];
    document.getElementById("kun").value = window.n5[window.random][3];

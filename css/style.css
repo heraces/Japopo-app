@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(82, 93, 101);
+}
+
+h1{
+  margin: auto;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 80px;
+  text-shadow: 3px 3px 2px #ebf7c1;
+}
+
+a {
+    background-color: #ddd;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    width: 25%;
+    height: 40%;
+    text-shadow: 2px 2px 2px #ebf7c1;
+    box-shadow: 2px 2px 3px #212222;
+  }
+  
+#volver{
+  width: 5%;
+}
+
+#volver2{
+  width: 5%;
+  height: 5%;
+}
+#letsStart{
+  padding-top: 40%;
+  padding-left: 40%;
+}
+#floatAboveEverything {
+  background-color: #212222;
+  width: 100%;
+  height: 100%;
+	z-index: 1000; 
+	position: absolute;
+}
+
+a:hover {
+    background-color: rgb(27, 27, 27);
+    color: rgb(243, 224, 98);
+    text-shadow: 2px 2px 2px #212222;
+    box-shadow: 2px 2px 3px #ebf7c1;
+    
+  }
+.round {
+    border-radius: 50%;
+  }
+
+.main_div{
+  background-color: rgb(117, 193, 151);
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+  border: 6px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 3px 3px 4px #8f947f;
+
+}
+
+.inside_div{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 40%;
+}
