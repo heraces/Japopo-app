@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title>Identificar Kanji - Japopo app</title>
+      <title>Japopo app</title>
       <meta charset="UTF-8">
-      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
     <div id="floatAboveEverything" >
       <a id="volver2" href="./N5-kanji.html">Volver</a>
-      <div id= "letsStart">
-        <button onclick= showFirst()>
-            Lets Start
-        </button>
+      <div id="floatingContent">
+        <h3>Adivina el kanji a partir de su significado en español</h3>
+        <h3></h3>
+        <h4>Pulsa en el kanji para si no sabes la respuesta</h4>
+        <div id= "letsStart">
+          <button onclick= showFirst()>
+              Lets Start
+          </button>
+        </div>
       </div>
     </div>
-
-    <a id="volver" href="./N5-kanji.html">Volver</a>
+    <a href="./N5-kanji.html">Volver</a>
+    
+    <div>
+      <button onclick= show()>
+          Lets Start
+      </button>
+    </div>
     <div>
       Kanji
       <button id = "kanji" onclick=explain()> ddd </button>
@@ -53,7 +63,7 @@
 
     </div>
     <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
-    <script src="./js/k2esp.js"></script>
+    <script src="../js/k2esp.js"></script>
   </body>
 </html>
   

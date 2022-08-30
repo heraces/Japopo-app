@@ -10,6 +10,13 @@ h1{
   text-shadow: 3px 3px 2px #ebf7c1;
 }
 
+h2{
+  margin: auto;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: 1px 1px 1px #ebf7c1;
+}
+
 a {
     background-color: #ddd;
     color: black;
@@ -33,12 +40,23 @@ a {
   width: 5%;
   height: 5%;
 }
+
 #letsStart{
-  padding-top: 40%;
-  padding-left: 40%;
+  margin-left: 40%;
+  margin-top: 30%;
+}
+#floatingContent{
+  border: 6px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  background-color: rgb(117, 193, 151);
+  padding: 10px;
+
 }
 #floatAboveEverything {
-  background-color: #212222;
+  background-color: #212222b0;
   width: 100%;
   height: 100%;
 	z-index: 1000; 
@@ -66,6 +84,16 @@ a:hover {
   padding: 10px;
   box-shadow: 3px 3px 4px #8f947f;
 
+}
+
+#choices{
+  border: 6px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5%;
 }
 
 .inside_div{

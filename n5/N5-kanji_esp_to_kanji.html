@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Japopo app</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>   
+    <div id="floatAboveEverything" >
+    <a id="volver2" href="./N5-kanji.html">Volver</a>
+    <div id="floatingContent">
+      <h3>Adivina el kanji a partir de su significado en español</h3>
+      <h3></h3>
+      <h4>Pulsa en el kanji para si no sabes la respuesta</h4>
+      <div id= "letsStart">
+        <button onclick= showFirst()>
+            Lets Start
+        </button>
+      </div>
+    </div>
+  </div>
+    <a href="./N5-kanji.html">Volver</a>
+    
+    <div class="main_div">
+        <div>
+          Kanji
+          <button id = "kanji" onclick=explain()> ddd </button>
+          <p id="aciertos"> Aciertos:</p>
+          <p id="fallos"> Fallos:</p>
+        </div>
+
+        
+        <div id = "choices">
+          <button onclick= check(this)>
+            {{expression}}
+          </button>
+          <button onclick= check(this)>
+            {{expression}}
+          </button>
+          <button onclick= check(this)>
+            {{expression}}
+          </button>
+          <button onclick= check(this)>
+            {{expression}}
+          </button>
+          <button onclick= check(this)>
+            {{expression}}
+          </button>
+        </div>
+
+        <div class="explicaccion">
+            On:
+            <input id ="on" readonly>
+            Kun:
+            <input id="kun" readonly>
+            Traducción:
+            <input id="traduccion" readonly>
+
+
+        </div>
+
+      </div>
+    </div>
+      
+
+    <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+    <script src="../js/k2esp-to-kanji.js"></script>
+  </body>
+</html>
+  
+  

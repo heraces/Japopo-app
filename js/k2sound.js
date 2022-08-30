@@ -22,6 +22,12 @@ function show(){
    p.innerText = window.n5[window.random][0]
 }
 
+function showFirst(){
+   const face = document.getElementById("floatAboveEverything");
+   face.parentNode.removeChild(face);
+   show();
+}
+
 function lectura(){
    if(lecturaBool){
       lecturaBool = false;
@@ -62,7 +68,7 @@ var aciertos = 0;
 var fallos = 0;
 
 function start(){ 
-   Papa.parse(("./n1ton5csv/kanji-N5.csv"),{download:true, headers: false, complete: function(results){
+   Papa.parse(("../n1ton5csv/kanji-N5.csv"),{download:true, headers: false, complete: function(results){
       window.n5 = results.data}})
 }
 
