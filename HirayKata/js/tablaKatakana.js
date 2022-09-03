@@ -19,7 +19,7 @@ function start(){
     }, )
 
     table = document.getElementById("hiragana_table").getElementsByTagName("tbody")[0]
-    Papa.parse(("../../kanas/hiragana.csv"),{download:true, headers: false, 
+    Papa.parse(("../../kanas/katakana.csv"),{download:true, headers: false, 
         delimiter: ',',skipEmptyLines: true, complete: function(results){
             for(let i = 0; i<results.data.length;i++){
                 let x = document.createElement("tr")

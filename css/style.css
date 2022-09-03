@@ -112,13 +112,7 @@ a:hover {
 }
 
 
-td{
-  border: 6px solid rgb(0, 0, 0);
-  border-radius: 15px;
-}
-
-table tr{
-  
-  border: 6px solid rgb(0, 0, 0);
-  border-radius: 15px;
+table, th, td {
+  text-align: center;
+  border: 2px solid black;
 }
