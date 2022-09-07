@@ -112,7 +112,13 @@ a:hover {
 }
 
 
-table, th, td {
+table{
+  text-align: center;
+  width: 100%;
+  border: 2px solid black;
+}
+
+th, td {
   text-align: center;
   border: 2px solid black;
 }
